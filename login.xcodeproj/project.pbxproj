@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		EF037C941BF4BF4300E145C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF037C931BF4BF4300E145C0 /* main.m */; };
 		EF037C971BF4BF4300E145C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF037C961BF4BF4300E145C0 /* AppDelegate.m */; };
-		EF037C9A1BF4BF4300E145C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF037C991BF4BF4300E145C0 /* ViewController.m */; };
-		EF037C9D1BF4BF4300E145C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF037C9B1BF4BF4300E145C0 /* Main.storyboard */; };
 		EF037C9F1BF4BF4300E145C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF037C9E1BF4BF4300E145C0 /* Images.xcassets */; };
-		EF037CA21BF4BF4300E145C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF037CA01BF4BF4300E145C0 /* LaunchScreen.xib */; };
 		EF037CAE1BF4BF4300E145C0 /* loginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF037CAD1BF4BF4300E145C0 /* loginTests.m */; };
+		EF037D8A1BF4C0E400E145C0 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF037D821BF4C0E400E145C0 /* ALView+PureLayout.m */; };
+		EF037D8B1BF4C0E400E145C0 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF037D841BF4C0E400E145C0 /* NSArray+PureLayout.m */; };
+		EF037D8C1BF4C0E400E145C0 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EF037D861BF4C0E400E145C0 /* NSLayoutConstraint+PureLayout.m */; };
+		EF037D8F1BF4C17400E145C0 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF037D8E1BF4C17400E145C0 /* loginViewController.m */; };
+		EF037D921BF4C92700E145C0 /* backGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF037D911BF4C92700E145C0 /* backGroundView.m */; };
+		EFD7F8E31BF4FAE40033B314 /* UITextField+loginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7F8E21BF4FAE40033B314 /* UITextField+loginTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,25 @@
 		EF037C931BF4BF4300E145C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF037C951BF4BF4300E145C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF037C961BF4BF4300E145C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF037C981BF4BF4300E145C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF037C991BF4BF4300E145C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EF037C9C1BF4BF4300E145C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF037C9E1BF4BF4300E145C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EF037CA11BF4BF4300E145C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EF037CA71BF4BF4300E145C0 /* loginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF037CAC1BF4BF4300E145C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF037CAD1BF4BF4300E145C0 /* loginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginTests.m; sourceTree = "<group>"; };
+		EF037D811BF4C0E400E145C0 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		EF037D821BF4C0E400E145C0 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		EF037D831BF4C0E400E145C0 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		EF037D841BF4C0E400E145C0 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		EF037D851BF4C0E400E145C0 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		EF037D861BF4C0E400E145C0 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		EF037D871BF4C0E400E145C0 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		EF037D881BF4C0E400E145C0 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		EF037D891BF4C0E400E145C0 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		EF037D8D1BF4C17400E145C0 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		EF037D8E1BF4C17400E145C0 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
+		EF037D901BF4C92700E145C0 /* backGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backGroundView.h; sourceTree = "<group>"; };
+		EF037D911BF4C92700E145C0 /* backGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = backGroundView.m; sourceTree = "<group>"; };
+		EFD7F8E11BF4FAE40033B314 /* UITextField+loginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+loginTextField.h"; sourceTree = "<group>"; };
+		EFD7F8E21BF4FAE40033B314 /* UITextField+loginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+loginTextField.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,7 @@
 		EF037C851BF4BF4300E145C0 = {
 			isa = PBXGroup;
 			children = (
+				EF037D801BF4C0E400E145C0 /* PureLayout */,
 				EF037C901BF4BF4300E145C0 /* login */,
 				EF037CAA1BF4BF4300E145C0 /* loginTests */,
 				EF037C8F1BF4BF4300E145C0 /* Products */,
@@ -83,11 +98,13 @@
 			children = (
 				EF037C951BF4BF4300E145C0 /* AppDelegate.h */,
 				EF037C961BF4BF4300E145C0 /* AppDelegate.m */,
-				EF037C981BF4BF4300E145C0 /* ViewController.h */,
-				EF037C991BF4BF4300E145C0 /* ViewController.m */,
-				EF037C9B1BF4BF4300E145C0 /* Main.storyboard */,
+				EF037D8D1BF4C17400E145C0 /* loginViewController.h */,
+				EF037D8E1BF4C17400E145C0 /* loginViewController.m */,
+				EF037D901BF4C92700E145C0 /* backGroundView.h */,
+				EF037D911BF4C92700E145C0 /* backGroundView.m */,
+				EFD7F8E11BF4FAE40033B314 /* UITextField+loginTextField.h */,
+				EFD7F8E21BF4FAE40033B314 /* UITextField+loginTextField.m */,
 				EF037C9E1BF4BF4300E145C0 /* Images.xcassets */,
-				EF037CA01BF4BF4300E145C0 /* LaunchScreen.xib */,
 				EF037C911BF4BF4300E145C0 /* Supporting Files */,
 			);
 			path = login;
@@ -117,6 +134,22 @@
 				EF037CAC1BF4BF4300E145C0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF037D801BF4C0E400E145C0 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EF037D811BF4C0E400E145C0 /* ALView+PureLayout.h */,
+				EF037D821BF4C0E400E145C0 /* ALView+PureLayout.m */,
+				EF037D831BF4C0E400E145C0 /* NSArray+PureLayout.h */,
+				EF037D841BF4C0E400E145C0 /* NSArray+PureLayout.m */,
+				EF037D851BF4C0E400E145C0 /* NSLayoutConstraint+PureLayout.h */,
+				EF037D861BF4C0E400E145C0 /* NSLayoutConstraint+PureLayout.m */,
+				EF037D871BF4C0E400E145C0 /* PureLayout+Internal.h */,
+				EF037D881BF4C0E400E145C0 /* PureLayout.h */,
+				EF037D891BF4C0E400E145C0 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +215,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = EF037C851BF4BF4300E145C0;
 			productRefGroup = EF037C8F1BF4BF4300E145C0 /* Products */;
@@ -199,8 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF037C9D1BF4BF4300E145C0 /* Main.storyboard in Resources */,
-				EF037CA21BF4BF4300E145C0 /* LaunchScreen.xib in Resources */,
 				EF037C9F1BF4BF4300E145C0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +251,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF037C9A1BF4BF4300E145C0 /* ViewController.m in Sources */,
 				EF037C971BF4BF4300E145C0 /* AppDelegate.m in Sources */,
 				EF037C941BF4BF4300E145C0 /* main.m in Sources */,
+				EF037D8F1BF4C17400E145C0 /* loginViewController.m in Sources */,
+				EFD7F8E31BF4FAE40033B314 /* UITextField+loginTextField.m in Sources */,
+				EF037D8A1BF4C0E400E145C0 /* ALView+PureLayout.m in Sources */,
+				EF037D8B1BF4C0E400E145C0 /* NSArray+PureLayout.m in Sources */,
+				EF037D921BF4C92700E145C0 /* backGroundView.m in Sources */,
+				EF037D8C1BF4C0E400E145C0 /* NSLayoutConstraint+PureLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +279,6 @@
 			targetProxy = EF037CA81BF4BF4300E145C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EF037C9B1BF4BF4300E145C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF037C9C1BF4BF4300E145C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EF037CA01BF4BF4300E145C0 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF037CA11BF4BF4300E145C0 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EF037CAF1BF4BF4300E145C0 /* Debug */ = {
@@ -416,6 +434,7 @@
 				EF037CB31BF4BF4300E145C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF037CB41BF4BF4300E145C0 /* Build configuration list for PBXNativeTarget "loginTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				EF037CB61BF4BF4300E145C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
